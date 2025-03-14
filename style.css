@@ -430,3 +430,30 @@ a:link, a:visited {
     justify-content: center;
     align-items: center;
 }
+#progressbar {
+    width: 50%;
+    background-color: gray;
+
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#progressbar>div {
+    background-color: #c2264a;
+    width: 2%;
+
+    height: 20px;
+
+}
+.progress-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goal{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
