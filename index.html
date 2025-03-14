@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>The Association of Political Prisoners of Belarus</title>
+    <link rel="icon" type="image/x-icon" href="public/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -23,9 +24,9 @@
             </div>
 
             <div  id="nav-collapsed"  class="navigation">
-                <div class="nav-item"><a href="#">Home</a></div>
+                <div class="nav-item"><a href="#main-nav">Home</a></div>
                 <div class="nav-item"><a href="#about">About Us</a></div>
-                <div class="nav-item"><a href="#our-projects"></a>Our Projects</div>
+                <div class="nav-item"><a href="#ourprojects">Our Projects</a></div>
                 <div class="nav-item"><a href="#contact">Contact</a></div>
             </div>
 
@@ -33,18 +34,19 @@
                     <img onclick="myFunction()" class="dropbtn hamburger" id="ham-menu" src="images/icons8-hamburger-menu-50.png" alt="" >
 
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="#home">Home</a>
+                    <a href="#main-nav">Home</a>
                     <a href="#about">About</a>
+                    <a href="#ourprojects">Our Projects</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
 
             <div id="contact-collapsed" class="contact">
                 <div class="btn-container">
-                    <a href=""#>
+                    <a href="#donate">
                         <button class="btn-help">Donate</button>
                     </a>
-                    <a href=""#>
+                    <a href="">
                         <button class="btn-change-lang">Беларуская</button>
                     </a>
                 </div>
@@ -74,10 +76,10 @@
             <h1 class="hero-title">Created by political prisoners for political prisoners</h1>
             <h2>We provide support to rebuilds lives</h2>
             <div class="btn-container">
-                <a href=""#>
+                <a href="#donate">
                     <button class="btn-help">I want to help</button>
                 </a>
-                <a href=""#>
+                <a href="#contact">
                     <button class="btn-help">I want to help</button>
                 </a>
 
@@ -115,7 +117,7 @@
         <p class="om-p">At the heart of our work is a deep belief in the power of community, resilience, and hope. We aim to not only
             support individuals but also inspire systemic change toward a democratic and just society.</p>
     </div>
-    <div id="our-projects" class="projects">
+    <div id="ourprojects" class="projects">
         <h2 style="color: #c2264a">Our Main Projects</h2>
         <p class="projects-p">At the Association of Political Prisoners of Belarus (APB), we focus on raising awareness, developing
             initiatives, and building partnerships to support political prisoners and their families. Together with
@@ -186,7 +188,7 @@
     <div class="make-donation-item">
         <h3 style="text-align: center; padding: 1rem;">Make donation or subscribe to support us monthly</h3>
     </div>
-    <div class="make-donation">
+    <div id="donate" class="make-donation">
         <div class="make-donation-item">
                 <stripe-buy-button
                         buy-button-id="buy_btn_1R1A2bJQNqVFGi5kwhZKlsOP"
@@ -230,6 +232,16 @@
             <p style="text-align: center; padding: 1rem;">Help us organize a summer camp in Palanga for children (6-16) from political prisoners' families. Your donation brings joy and hope to their summer!
             </p>
         </div>
+            <div class="progress-wrapper">
+                <div class="goal">
+                    <p>Raised 35</p>
+                    <p>Donations 5</p>
+                    <p>Goal 20 000</p>
+                </div>
+                <div id="progressbar" >
+                    <div></div>
+                </div>
+             </div>
             <div class="make-donation">
             <div class="make-donation-item">
                 <stripe-buy-button
@@ -247,10 +259,12 @@
             </div>
         </div>
     </div>
+    <hr style="color: #c2264a; background-color: #c2264a; width:100%; text-align:center; margin-left:0">
     <div id="contact" class="contact-section">
-        <hr style="color: #c2264a; background-color: #c2264a; width:100%; text-align:center; margin-left:0">
-        <h2>Contact Us</h2>
-        <p>If you want to become a member of the Association, need help or want to help, and also have ideas and projects that you want to implement, contact to us</p>
+        <div>
+            <h2>Contact Us</h2>
+            <p style="width: 50%">If you want to become a member of the Association, need help or want to help, and also have ideas and projects that you want to implement, contact to us</p>
+         </div>
         <div class="contact-item">
             Send us email: office@apbel.com
 
