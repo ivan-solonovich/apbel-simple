@@ -65,12 +65,12 @@ a:link, a:visited {
     background-image: url(/images/hero_transparent.jpg);
     display: flex;
     align-items: center;
-    color: white;
+    color: #F7F7F7;
 }
 .hero-container{
     padding-left: 4rem;
     width: 30%;
-    color: white;
+    color: #F7F7F7;
 }
 .hero-title{
 
@@ -82,8 +82,8 @@ a:link, a:visited {
 
 }
 .btn-help{
-    color: white;
-    background-color: #c2264a;
+    color: #F7F7F7;
+    background-color: #C42020;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -94,8 +94,8 @@ a:link, a:visited {
     border: none;
 
 }.btn-change-lang{
-    color: white;
-    background-color: #546b8a;
+    color: #F7F7F7;
+    background-color: #546B8A;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -128,7 +128,7 @@ a:link, a:visited {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #F7F7F7;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -142,7 +142,7 @@ a:link, a:visited {
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: #F7F7F7;}
 
 .show {display: block;}
 .contact{
@@ -179,7 +179,7 @@ a:link, a:visited {
     .hero-container{
         padding-left: 1rem;
         width: 80%;
-        color: white;
+        color: #F7F7F7;
     }
 
     .btn-container{
@@ -278,8 +278,8 @@ a:link, a:visited {
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: #546b8a;
-    color: white;
+    background-color: #546B8A;
+    color: #F7F7F7;
 }
 .om-p{
     max-width: 60%;
@@ -427,7 +427,7 @@ a:link, a:visited {
     }
 }
 .red-hand{
-    background-color: #c9cace;
+    background-color: #F7F7F7;
     display: grid;
     container-type: inline-size;
     grid-template-columns: 1fr 2fr;
@@ -469,7 +469,7 @@ a:link, a:visited {
 }
 
 #progressbar>div {
-    background-color: #c2264a;
+    background-color: #C42020;
     width: 2%;
 
     height: 20px;
