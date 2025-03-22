@@ -91,7 +91,7 @@ a:link, a:visited {
     font-size: 16px;
     margin-right: 1rem;
     cursor: pointer;
-    border-color: white;
+    border: none;
 
 }.btn-change-lang{
     color: white;
@@ -393,6 +393,34 @@ a:link, a:visited {
         display: grid;
         container-type: inline-size;
         grid-template-columns: 1fr;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+}
+.make-donation-camp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+.make-donation-item-camp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and  (max-width: 992px){
+    .make-donation-camp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding-top: 2rem;
         padding-bottom: 2rem;
 
