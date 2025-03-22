@@ -380,6 +380,7 @@ a:link, a:visited {
     grid-template-columns: 1fr 1fr;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 2rem;
 
 }
 .make-donation-item{
@@ -431,6 +432,7 @@ a:link, a:visited {
     display: grid;
     container-type: inline-size;
     grid-template-columns: 1fr 2fr;
+    margin-top: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -486,4 +488,57 @@ a:link, a:visited {
     width: 50%;
     display: flex;
     justify-content: space-between;
+}
+.donation-card{
+    max-width: 349px;
+    border: #c5c5c5 solid 1px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.donation-card-img{
+    width: 349px;
+    height: auto;
+    object-fit: cover;
+}
+.donation-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    min-height: 250px;
+}
+.donation-card-button-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.donation-card-button{
+    min-width: 80px;
+    color: #F7F7F7;
+    background-color: #C42020;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border: none;
+}
+.donation-card-button-subscribe{
+    min-width: 80px;
+    color: #F7F7F7;
+    background-color: #546B8A;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border: none;
 }
