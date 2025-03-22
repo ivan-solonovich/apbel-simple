@@ -52,6 +52,7 @@ a:link, a:visited {
     display: flex;
     justify-content: right;
     padding-right: 1rem;
+    margin-right: 2rem;
 }
 .nav-item{
     padding-right: 1rem;
@@ -90,6 +91,7 @@ a:link, a:visited {
     font-size: 16px;
     margin-right: 1rem;
     cursor: pointer;
+    border-color: white;
 
 }.btn-change-lang{
     color: white;
@@ -292,7 +294,7 @@ a:link, a:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -311,7 +313,7 @@ a:link, a:visited {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 @media screen and  (max-width: 992px) {
