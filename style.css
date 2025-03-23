@@ -558,6 +558,9 @@ a:link, a:visited {
         border: #c5c5c5 solid 1px;
         padding: 1rem;
         margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .donation-card-img{
         width: 100%;
