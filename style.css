@@ -553,6 +553,12 @@ a:link, a:visited {
     border: none;
 }
 @media screen and  (max-width: 992px){
+    .donation-card{
+        max-width: 90%;
+        border: #c5c5c5 solid 1px;
+        padding: 1rem;
+        margin: 1rem;
+    }
     .donation-card-img{
         width: 100%;
         height: auto;
