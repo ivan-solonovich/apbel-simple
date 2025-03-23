@@ -570,4 +570,18 @@ a:link, a:visited {
         display: flex;
         justify-content: center;
     }
+    .donation-card-button-subscribe{
+        min-width: 130px;
+        color: #F7F7F7;
+        background-color: #546B8A;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        padding: 1rem;
+        margin: 1rem;
+        cursor: pointer;
+        border: none;
+    }
 }
