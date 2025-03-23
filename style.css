@@ -567,5 +567,7 @@ a:link, a:visited {
         height: auto;
         text-align: center;
         object-fit: cover;
+        display: flex;
+        justify-content: center;
     }
 }
