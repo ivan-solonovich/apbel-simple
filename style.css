@@ -350,7 +350,10 @@ a:link, a:visited {
     justify-content: center;
 
 }
-
+.heart-title{
+    font-weight: bold;
+    font-size: xx-large;
+}
 @media screen and  (max-width: 992px) {
     .why-matters{
         background-color: #546b8a;
@@ -397,6 +400,7 @@ a:link, a:visited {
 }
 @media screen and  (max-width: 992px){
     .make-donation{
+        width: 100%;
         display: grid;
         container-type: inline-size;
         grid-template-columns: 1fr;
