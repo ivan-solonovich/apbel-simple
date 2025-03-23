@@ -316,28 +316,45 @@
         </div>
     </div>
     <hr style="color: #C42020; background-color: #C42020; width:100%; text-align:center; margin-left:0">
+
     <div id="contact" class="contact-section">
-        <div>
+        <div class="contact-telegram">
             <h2>Contact Us</h2>
             <p style="width: 50%">If you want to become a member of the Association, need help or want to help, and also have ideas and projects that you want to implement, contact to us</p>
-         </div>
-        <div class="contact-item">
-            Send us email: office@apbel.com
+            <div class="contact-item">
+                Send us email: office@apbel.com
 
-           Find our representatives via Telegram:
-            <ul>
-                <li>Warsaw @palitvyazen</li>
-                <li>Bialystok @iliveinminsk</li>
-                <li>Vilnius @maksdim</li>
-                <li>Georgia @Maf_1991</li>
-                <li>Germany @AmmoOne</li>
-                <li>Finland @APBel_FIN</li>
-                <li>Sweden @lae0089</li>
-            </ul>
+                Find our representatives via Telegram:
+                <ul>
+                    <li class="telegram">Warsaw @palitvyazen</li>
+                    <li class="telegram">Bialystok @iliveinminsk</li>
+                    <li class="telegram">Vilnius @maksdim</li>
+                    <li class="telegram">Georgia @Maf_1991</li>
+                    <li class="telegram">Germany @AmmoOne</li>
+                    <li class="telegram">Finland @APBel_FIN</li>
+                    <li class="telegram">Sweden @lae0089</li>
+                </ul>
+            </div>
         </div>
+
+        <div class="form-container"> <!-- Container for the form to style it specifically -->
+            <form class="contact-form"> <!-- Form element where user inputs will be submitted -->
+                <h2>Send message</h2> <!-- Heading of the form -->
+                <input type="text" id="name" placeholder="Full name"><br> <!-- Input field for name -->
+                <input type="email" id="email" placeholder="Email"><br> <!-- Input field for email, validates email format -->
+                <input type="text" id="subject" placeholder="Subject"><br> <!-- Input field for subject -->
+                <textarea id="message" placeholder="Message" cols="50" rows="10"></textarea><br> <!-- Textarea for longer message input -->
+                <input type="submit" class="submit" value="Send Message"> <!-- Submit button to send the form data -->
+            </form>
+        </div>
+
     </div>
+<footer class="footer">
+    <p>&copy;The Association of Political Prisoners </p>
+</footer>
 </div>
 <script src="script.js"></script>
+<script src="app.js"></script>
 </script>
 </body>
 </html>

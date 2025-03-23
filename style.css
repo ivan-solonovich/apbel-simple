@@ -463,15 +463,7 @@ a:link, a:visited {
 
     }
 }
-.contact-section{
-    padding-top: 2rem;
-    background-color: #546b8a;
-    width: 100%;
-    display: flex;
 
-    justify-content: center;
-    align-items: center;
-}
 #progressbar {
     width: 50%;
     background-color: gray;
@@ -596,4 +588,78 @@ a:link, a:visited {
         cursor: pointer;
         border: none;
     }
+}
+.contact-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: #546b8a;
+    width: 100%;
+
+}
+.telegram{
+    padding: 1rem;
+
+}
+
+/* Container for the form providing relative positioning context */
+.form-container {
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Styling for the contact form itself */
+.contact-form {
+
+}
+
+
+/* Styling for input fields and textarea within the form */
+input, textarea {
+    width: 100%;                        /* Make input and textarea elements take up 100% of their parent's width */
+    margin-top: 2rem;                   /* Add top margin to space out the elements */
+    border: none;                       /* Remove default borders */
+    border-bottom: 1px solid black;     /* Add a bottom border for a minimalistic look */
+    padding: 10px; /* Add padding for better readability */
+}
+
+
+/* Styling for the submit button */
+.submit {
+    border: 1px solid black;            /* Add a solid border around the submit button */
+    padding: 1rem;                      /* Add padding inside the button for better clickability */
+    text-align: center;                 /* Center the text inside the button */
+    background-color: #C42020;            /* Set the background color of the button */
+    cursor: pointer;                    /* Change the cursor to a pointer to indicate it's clickable */
+}
+
+
+/* Styling for the submit button on hover */
+.submit:hover {
+    opacity: 0.6;                       /* Change the opacity when hovered to give a visual feedback */
+}
+@media screen and  (max-width: 992px){
+    .contact-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        background-color: #546b8a;
+        width: 100%;
+
+    }
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #C42020;
+    color: #F7F7F7;
 }
