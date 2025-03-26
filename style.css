@@ -43,6 +43,7 @@ a:link, a:visited {
     align-items: center;
 }
 #main-logo{
+    padding-left: 1rem;
     width: 100px;
     height: auto;
 }
@@ -708,7 +709,36 @@ input, textarea {
 .footer{
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #C42020;
     color: #F7F7F7;
+    padding: 1rem;
+}
+.footer-menu{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+@media screen and  (max-width: 992px){
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #C42020;
+        color: #F7F7F7;
+        padding: 1rem;
+    }
+    .footer-menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
 }
