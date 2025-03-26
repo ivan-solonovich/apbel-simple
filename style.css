@@ -526,15 +526,23 @@ a:link, a:visited {
     justify-content: space-between;
 }
 .donation-card{
-    max-width: 349px;
+    max-width: 549px;
     border: #c5c5c5 solid 1px;
     padding: 1rem;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
 }
 .donation-card-img{
-    width: 349px;
+    width: 100%;
+    height: auto;
     height: auto;
     object-fit: cover;
+    display: flex;
+    justify-content: center;
 }
 .donation-card-body{
     display: flex;
@@ -551,28 +559,30 @@ a:link, a:visited {
     flex-wrap: wrap;
 }
 .donation-card-button{
-    min-width: 80px;
+    min-width: 50px;
     color: #F7F7F7;
     background-color: #C42020;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: large;
+    font-weight: bolder;
     padding: 1rem;
     margin: 1rem;
     cursor: pointer;
     border: none;
 }
 .donation-card-button-subscribe{
-    min-width: 80px;
+    min-width: 50px;
     color: #F7F7F7;
     background-color: #546B8A;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: large;
+    font-weight: bolder;
     padding: 1rem;
     margin: 1rem;
     cursor: pointer;
