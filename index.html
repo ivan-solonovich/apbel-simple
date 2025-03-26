@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
     <script async
             src="https://js.stripe.com/v3/buy-button.js">
@@ -71,16 +73,17 @@
         </a>
     </div>
     <hr>
-    <div class="hero">
-        <div class="hero-container">
-            <h1 class="hero-title">Created by political prisoners for political prisoners</h1>
-            <h2>We provide support to rebuilds lives</h2>
+    <div class="hero ">
+        <div class="hero-container ">
+            <h2 class="hero-caption  opacity-1000 uppercase">We provide support to rebuilds lives</h2>
+            <h1 class="hero-title hero-title capitalize leading-tight mb-2 text-white">Created by political prisoners for political prisoners</h1>
+
             <div class="btn-container">
                 <a href="#donate">
                     <button class="btn-help">I want to help</button>
                 </a>
                 <a href="#contact">
-                    <button class="btn-help">I want to help</button>
+                    <button class="btn-help">I need a help</button>
                 </a>
 
             </div>
@@ -105,7 +108,7 @@
         </div>
     </div>
     <div class="our-mission">
-        <h2>Our Mission</h2>
+        <h2 class="our-mission-title">Our Mission</h2>
         <p class="om-p">Our mission is to defend human rights, provide relief to those impacted by political repression, and help them reclaim their lives.</p>
         <ul>
             <p class="om-p">We are committed to: </p>
@@ -118,7 +121,7 @@
             support individuals but also inspire systemic change toward a democratic and just society.</p>
     </div>
     <div id="ourprojects" class="projects">
-        <h2 style="color: #C42020">Our Main Projects</h2>
+        <h2 class="projects-title" style="color: #C42020">Our Main Projects</h2>
         <p class="projects-p">At the Association of Political Prisoners of Belarus (APB), we focus on raising awareness, developing
             initiatives, and building partnerships to support political prisoners and their families. Together with
             organizations and donors, we aim to create opportunities for real change.</p>
@@ -177,7 +180,7 @@
             </svg>
     </div>
         <div class="ws-container">
-            <h2>Why Your Support Matters</h2>
+            <h2 class="ws-title">Why Your Support Matters</h2>
             <p style="text-align: center; padding: 1rem">
             These initiatives are the first step toward creating lasting change. We invite donors, organizations, and
             individuals to join us in making these ideas a reality. <span style="background-color: #C42020; color: white">Together,
