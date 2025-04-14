@@ -75,6 +75,8 @@ a:link, a:visited {
     color: #F7F7F7;
 }
 .hero-caption{
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: #C42020;
     color: #F7F7F7;
 }
@@ -85,6 +87,7 @@ a:link, a:visited {
 .btn-container{
     width: 100%;
     display: flex;
+    justify-content: center;
 
 }
 .btn-help{
@@ -299,6 +302,7 @@ a:link, a:visited {
     padding-bottom: 1rem;
 }
 .om-p{
+    padding-bottom: .5rem;
     max-width: 60%;
 }
 @media screen and  (max-width: 992px) {
@@ -316,6 +320,7 @@ a:link, a:visited {
     padding-bottom: 2rem;
 }
 .projects-p{
+    text-align: center;
     width: 60%;
 
 }
@@ -345,9 +350,15 @@ a:link, a:visited {
 .projects-svg{
     padding: 1rem;
 }
+.pr-b-container{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
 @media screen and  (max-width: 992px) {
     .projects-p{
-        width: 100%;
+        text-align: center;
+        width: 90%;
 
     }
     .projects-container{
@@ -650,6 +661,13 @@ a:link, a:visited {
 
 
 }
+.contact-telegram{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .telegram{
     width: 50%;
     padding: 1rem;
@@ -658,7 +676,7 @@ a:link, a:visited {
 
 /* Container for the form providing relative positioning context */
 .form-container {
-   width: 100%;
+   max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -668,7 +686,7 @@ a:link, a:visited {
 
 /* Styling for the contact form itself */
 .contact-form {
-width: 50%;
+max-width: 100%;
 }
 
 
@@ -698,7 +716,7 @@ input, textarea {
 }
 @media screen and  (max-width: 992px){
     .contact-section{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         padding-top: 2rem;
